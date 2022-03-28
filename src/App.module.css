@@ -1,0 +1,14 @@
+.app_wrapper {
+  display: grid;
+  width: 1200px;
+  margin: 0 auto;
+  grid-template-areas:
+    "h h"
+    "n c";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+}
+.app_wrapper_content {
+  grid-area: c;
+  background: url(https://oir.mobi/uploads/posts/2021-03/1616963578_18-p-serii-fon-20.jpg);
+}

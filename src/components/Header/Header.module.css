@@ -1,0 +1,22 @@
+.header {
+  grid-area: h;
+  background-color: blueviolet;
+}
+.header img {
+  vertical-align: middle;
+  width: 40px;
+}
+.loginBlock {
+  float: right;
+}
+.loginBlock a {
+  color: whitesmoke;
+}
+.text {
+  color: whitesmoke;
+}
+.formSummeryError {
+  border: red 1px solid;
+  color: red;
+  padding: 5px;
+}
